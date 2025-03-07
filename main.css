@@ -1,0 +1,355 @@
+.shadow-background {
+    background-image: url('./pictures/Site-background-dark.jpg');
+    background-position: center;
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+.info-shadow-background {
+    display: grid;
+    background-attachment: fixed;
+    place-items: center;
+    width: 1090px;
+    background-image: url('./pictures/background-dark-center.jpg');
+    border: 1px solid rgba(192, 192, 192, 0.405);
+
+}
+.shadow-table1 {
+    display: grid;
+    place-items: center;
+    border-collapse: separate;
+    width: 610px;
+    margin-top: 20px;
+    margin-left: 48px;
+}
+tbody, thead {
+    display: table-row-group;
+    text-align: center;
+    border-color: inherit;
+}
+.table-header-style1 {
+    color: rgba(165, 153, 138, 0.9);
+    padding: 16px 6px;
+    border: 0.5px solid rgba(253, 209, 127, 0.3);
+    font-size: 20px;
+}
+.table-data-style1 {
+    color: rgba(255, 240, 221, 0.7);
+    padding: 5px 10px;
+    border: 0.5px solid rgba(253, 209, 127, 0.3);
+}
+body {
+    background: #0c0c0c;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+.shadow-table .table-row-style1 {
+    padding: 7px 14px;
+}
+.icons {
+    padding: 8px 8px 6px 8px;
+    font-size: 88%;
+    width: 20px;
+    height: 20px;
+}
+.th1-attributes {
+    width: 30%;
+    height: 25%;
+    color: rgba(165, 153, 138, 0.9);
+    padding: 16px 6px;
+    border: 0.5px solid rgba(253, 209, 127, 0.3);
+    font-size: 20px;
+}
+.th2-attributes {
+    width: 30%;
+    height: 25%;
+    color: rgba(165, 153, 138, 0.9);
+    padding: 16px 6px;
+    border: 0.5px solid rgba(253, 209, 127, 0.3);
+    font-size: 20px;
+}
+.th3-attributes {
+    width: 23%;
+    height: 25%;
+    color: rgba(165, 153, 138, 0.9);
+    padding: 16px 6px;
+    border: 0.5px solid rgba(253, 209, 127, 0.3);
+    font-size: 20px;
+}
+.th4-attributes {
+    width: 17%;
+    height: 25%;
+    color: rgba(165, 153, 138, 0.9);
+    padding: 16px 6px;
+    border: 0.5px solid rgba(253, 209, 127, 0.3);
+    font-size: 20px;
+}
+.game-description1 {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.description-game {
+width: 310px;
+height: 815px;
+float: right;
+margin-left: 48px;
+margin-right: 48px;
+margin-top: 48px;
+margin-bottom: 48px;
+padding-left: 2px;
+border: 18px solid transparent;
+border-radius: 0px;
+border-image: url(./pictures/latest.png) repeat 18;
+}
+.description-photo {
+text-align: center;
+float: right;
+}
+.description-table1 {
+    float: right;
+    padding-top: 2px;
+    padding-right: 3px;
+}
+.description-head1 {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-weight: 800;
+    font-size: 34px;
+    color: rgba(255, 240, 221, 0.8);
+    border-bottom: 1px solid gray;
+}
+.dark-souls-preview1 {
+    width: 300px;
+    height: 422px;
+    margin-right: 5px;
+}
+.main-menu {
+    width: 1903px;
+    height: 125px;
+    margin-bottom: 30px;
+    background-image: url(./pictures/background-menu.png);
+    margin-right: 3px;
+    background-size: 1920px 125px;
+    text-align: center;
+}
+.menu-item {
+    margin-top: 6px;
+    margin-right: 25px;
+    color: rgba(255, 240, 221, 0.8);
+    font-size: 28px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.menu-icon {
+    width: 250px;
+    height: 65px;
+    margin-top: 8px;
+    margin-left: 820px;
+}
+.game-description-text {
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 18.5px;
+    color: rgba(255, 240, 221, 0.8);
+    line-height: 2;
+}
+li {
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+    font-size: 18px !important;
+}
+.game-description-header1 {
+    width: 600px;
+    margin-left: 48px;
+    margin-top: 48px;
+    border-bottom: 1px solid gray;
+}
+.game-description-header1-text {
+    font-size: 40px;
+    color: rgba(255, 240, 221, 0.9);
+    margin-bottom: 20px;
+}
+.game-description-header2-text {
+    width: 600px;
+    font-size: 30px;
+    color: rgba(202, 187, 169, 0.8);
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    margin-left: 48px;
+    border-bottom: 1px solid gray;
+}
+.game-description-header2-text2 {
+    width: 994px;
+    font-size: 30px;
+    color: rgba(202, 187, 169, 0.8);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    margin-left: 48px;
+    border-bottom: 1px solid gray;
+}
+.description-highlight-text {
+    color: rgba(255, 255, 0, 0.8);
+    font-size: 18.5px;
+}
+.description-bold-text {
+    font-weight: 1000;
+    color: rgba(255, 240, 221, 0.9);
+}
+.spacer {
+    height: 28px;
+}
+.game-description-header3-text {
+    width: 200px;
+    font-size: 27px;
+    color: rgba(202, 187, 169, 0.8);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    margin-left: 48px;
+    border-bottom: 1px solid gray;
+}
+.poem-table1 {
+    width: 600px;
+    margin-left: 245px;
+    border: 18px solid transparent;
+    border-radius: 0px;
+    border-image: url(./pictures/latest.png) repeat 18;
+}
+.table-data-style2 {
+    color: rgba(255, 240, 221, 0.7);
+    padding: 5px 10px;
+    font-style: italic;
+    line-height: 1.8;
+    font-size: 17px;
+}
+.dark-souls-knife1 {
+    width: 300px;
+    height: 280px;
+    border: 0.5px solid rgba(253, 209, 127, 0.3);
+    margin-right: 3px;
+}
+.description-head2 {
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 2px;
+    font-weight: 800;
+    font-size: 26px;
+    color: rgba(255, 240, 221, 0.8);
+}
+.table-header-style2 {
+    color: rgba(165, 153, 138, 0.9);
+    padding: 3px 2px;
+    border: 0.5px solid rgba(253, 209, 127, 0.3);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 3px;
+    margin-top: 10px;
+}
+.mini-stats-table1 {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    border-collapse: collapse;
+    width: 307px;
+    margin-top: 5px;
+    border: 0.5px solid rgba(253, 209, 127, 0.3);
+}
+.table-data-style3 {
+    color: rgba(255, 240, 221, 0.7);
+    padding: 3px 20px;
+    font-size: 20px;
+ }
+.description-game-knife1 {
+    width: 310px;
+    height: 945px;
+    padding-left: 2px;
+    float: right;
+    margin-left: 48px;
+    margin-right: 46px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    border: 18px solid transparent;
+    border-radius: 0px;
+    border-image: url(./pictures/latest.png) repeat 18;
+}
+.table-data-style4 {
+    color: rgba(255, 240, 221, 0.7);
+    padding: 3px 8px;
+    width: 20px;
+    height: 20px;
+}
+.table-header-style3 {
+    color: rgba(165, 153, 138, 0.9);
+    font-size: 20px;
+}
+.table-system-requirements {
+    width: 700px;
+    margin-left: 48px;
+    margin-top: 5px;
+    box-shadow: 0 0 5px 3px black;
+}
+.table-header-style4 {
+    width:143.5px;
+    color: rgba(165, 153, 138, 0.9);
+    font-size: 20px;
+}
+.table-header-style5 {
+    width:143.5px;
+    color: rgba(165, 153, 138, 0.9);
+    font-size: 20px;
+    border-bottom: 0.5px solid rgba(253, 209, 127, 0.3);
+}
+.table-data-style5 {
+    width: 18%;
+    color: rgba(255, 240, 221, 0.7);
+    border-bottom: 0.5px solid rgba(253, 209, 127, 0.3);
+}
+.table-data-style6 {
+    color: rgba(255, 240, 221, 0.7);
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+.table-data-style7 {
+    color: rgba(255, 240, 221, 0.7);
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+    border-bottom: 0.5px solid rgba(253, 209, 127, 0.3);
+}
+.poem-table2 {
+    width: 600px;
+    margin-left: 48px;
+    border: 18px solid transparent;
+    border-radius: 0px;
+    border-image: url(./pictures/latest.png) repeat 18;
+}
+.description-game-knife2 {
+    width: 310px;
+    height: 985px;
+    padding-left: 2px;
+    float: right;
+    margin-left: 48px;
+    margin-right: 46px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    border: 18px solid transparent;
+    border-radius: 0px;
+    border-image: url(./pictures/latest.png) repeat 18;
+}
+.united-list-style1 {
+    padding-left: 0px;
+}
+.upgrades-table {
+    width: 555px !important;
+}
+.description-game-knife3 {
+    height: 1030px !important;
+}
+.aside-highlight {
+    color: rgba(255, 255, 0, 0.8);
+}
